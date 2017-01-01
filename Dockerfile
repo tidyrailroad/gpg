@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM emorymerryman/base:0.0.2
 MAINTAINER Emory Merryman emory.merryman@gmail.com
 RUN \
     apk update && \
