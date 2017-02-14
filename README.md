@@ -1,3 +1,4 @@
+<!--
 # Copyright © (C) 2017 Emory Merryman <emory.merryman@gmail.com>
 #   This file is part of gpg.
 #
@@ -13,11 +14,7 @@
 #
 #   You should have received a copy of the GNU General Public License
 #   along with gpg.  If not, see <http://www.gnu.org/licenses/>.
-FROM tidyrailroad/base:0.2.1
-MAINTAINER Emory Merryman emory.merryman@gmail.com
-RUN \
-    apk update && \
-    apk upgrade && \
-    apk add gpgme
-ENTRYPOINT ["/usr/bin/gpg"]
-CMD []
+-->
+# gpg
+
+This is a docker imaging of the well known (gnupg program)[https://www.gnupg.org/].
