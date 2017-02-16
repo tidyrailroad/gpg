@@ -13,7 +13,7 @@
 #
 #   You should have received a copy of the GNU General Public License
 #   along with gpg.  If not, see <http://www.gnu.org/licenses/>.
-FROM tidyrailroad/base:0.2.1
+FROM tidyrailroad/base:0.2.3
 MAINTAINER Emory Merryman emory.merryman@gmail.com
 RUN \
     apk update && \
